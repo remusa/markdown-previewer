@@ -15,9 +15,9 @@ Heres some code, \`<div></div>\`, between 2 backticks.
 // this is multi-line code:
 
 function anotherExample(firstLine, lastLine) {
-  if (firstLine == '\`\`\`' && lastLine == '\`\`\`') {
-    return multiLineCode;
-  }
+    if (firstLine == '\`\`\`' && lastLine == '\`\`\`') {
+        return multiLineCode;
+    }
 }
 \`\`\`
 
@@ -37,9 +37,9 @@ Your content can | be here, and it | can be here....
 And here. | Okay. | I think we get it.
 
 - And of course there are lists.
-  - Some are bulleted.
-     - With different indentation levels.
-        - That look like this.
+    - Some are bulleted.
+        - With different indentation levels.
+            - That look like this.
 
 
 1. And there are numbererd lists too.
@@ -64,8 +64,6 @@ class App extends Component {
     }
 
     onInputChange = event => {
-        console.log(event.target.value)
-
         this.setState({
             input: event.target.value,
         })

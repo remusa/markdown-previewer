@@ -16,8 +16,19 @@ body {
 
 .editor {
 
-  .editor__textarea {}
+  .editor__textarea {
+    resize: none;
+    width: 40em;
+    height: 15em;
+  }
 
 }
 
-.previewer {}
+.previewer {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  // width: 523px;
+  max-width: 80%;
+  height: auto;
+}
